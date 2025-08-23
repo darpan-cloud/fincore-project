@@ -180,9 +180,6 @@ flowchart TD
     Email["SMTP / Email"]:::external
     Slack["Slack"]:::external
 
-```
-
-```mermaid
     %% Grafana Provisioning Config
     subgraph "Grafana Provisioning" 
         direction TB
@@ -226,9 +223,6 @@ flowchart TD
     click GFal "https://github.com/darpan-cloud/fincore-project/blob/flask-app/grafana/provisioning/alerting/fincore-alerts.yml"
     click GFnpp "https://github.com/darpan-cloud/fincore-project/blob/flask-app/grafana/provisioning/alerting/notification-policies.yml"
 
-```
-
-```mermaid
     %% Relationships & Data Flow
     Terraform -->|"provisions"| AWS
     Terraform -->|"state stored"| S3
