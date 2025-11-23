@@ -130,16 +130,7 @@ fincore-monitoring/
   │       └── datasources/
   │           └── prometheus-datasource.yml # Grafana provisioning file for Prometheus data source
   ├── screenshots/     
-  │     ├── grafana.png # Screenshot of Grafana 
-  |     ├── Grafana2.png # Another dashboard view  
-  |     ├── Dashboard-json.png # Screenshot of Exported Dashboard JSON 
-  │     ├── Prometheus-targets.png # Screenshot of Prometheus targets
-  │     ├── Alert-firing.png # Screenshot of triggered alert
-  │     ├── Alerts.png # Screenshot showing alert rules in Grafana
-  │     ├── Simulating-alert.png  # Screenshot demonstrating simulated alert
-  │     ├── Alert-firing-mail.png # Screenshot of mail for alert firing
-  │     ├── Alert-resolved-mail.png # Screenshot of mail for alert resolved notification
-  │     └── Backend-S3-statestorage.png # Screenshot of Terraform storing remote state in S3 bucket
+  │     ├── *.png # Screenshots
   ├── terraform-fincore/
   │     ├── main.tf  # Terraform infrastructure config
   │     ├── output.tf  # Output values from Terraform
